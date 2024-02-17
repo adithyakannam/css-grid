@@ -36,7 +36,7 @@
     <div class="itm itm24">24</div>
     <div class="itm itm25">25</div>
     <div class="itm itm26">26</div>
-    <div class="itm itm27">27</div>
+    <div class="itm itm27">2gaega7</div>
     <div class="itm itm28">28</div>
     <div class="itm itm29">29</div>
     <div class="itm itm30">30</div>
@@ -70,7 +70,24 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: repeat(10, 1fr);
+      height: 500px;
+      grid-template-columns: repeat(5, 130px);
+      /* grid-template-rows: repeat(5, 100px); */
+      border: 5px solid var(--yellow);
+      /* justify-items: center;
+      align-items: center; */
+      place-items: stretch stretch;
+      justify-content: space-between;
+      align-content: space-between;
+
+    }
+    .itm{
+      background: white;
+    }
+    .itm5{
+     
+      justify-self: center;
+      align-self: center;
     }
   </style>
 </body>
